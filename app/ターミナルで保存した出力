@@ -1,0 +1,19 @@
+kanehisamasaharu-no-MacBook-Air:desktop kanehisamasaharu$ ruby scraping.rb
+#<Mechanize:0x00007fdbe4395680>
+Traceback (most recent call last):
+	4: from scraping.rb:5:in `<main>'
+	3: from /Users/kanehisamasaharu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/mechanize-2.7.6/lib/mechanize.rb:464:in `get'
+	2: from /Users/kanehisamasaharu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/mechanize-2.7.6/lib/mechanize/http/agent.rb:240:in `fetch'
+	1: from /Users/kanehisamasaharu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/mechanize-2.7.6/lib/mechanize/http/agent.rb:651:in `resolve'
+/Users/kanehisamasaharu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/mechanize-2.7.6/lib/mechanize/http/agent.rb:177:in `block (2 levels) in initialize': Mechanize::UnsupportedSchemeError (Mechanize::UnsupportedSchemeError)
+kanehisamasaharu-no-MacBook-Air:desktop kanehisamasaharu$ ruby scraping.rb
+#<Mechanize:0x00007fe9e2513e38>
+Q2-TEST1
+Q2-TEST2
+Q2-TEST3
+kanehisamasaharu-no-MacBook-Air:desktop kanehisamasaharu$ ruby scraping.rb
+#<Mechanize:0x00007fb9ebba4d50>
+Q2-TEST1
+Q2-TEST2
+Q2-TEST3
+kanehisamasaharu-no-MacBook-Air:desktop kanehisamasaharu$ 
